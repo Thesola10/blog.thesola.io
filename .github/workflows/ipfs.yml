@@ -1,0 +1,32 @@
+name: deploy-to-ipfs
+
+on:
+    push:
+        paths:
+            - '**.md'
+            - 'static/**'
+
+jobs:
+    ipfs-deploy:
+        name: Deploy latest blog version to IPFS
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout code
+            uses: actions/checkout@v2
+
+          - name: Build website with Hugo
+            uses: jakejarvis/hugo-build-action@master
+            with:
+                args: --minify
+
+          - name: Add to IPFS
+            uses: quorumcontrol/ipfs-deploy-github-action@v1.1
+            with:
+                deploy-dir: public
+                pinata-api-key: ${{ secrets.PINATA_KEY }}
+                pinata-secret-api-key: ${{ secrets.PINATA_SECRET }}
+                cloudflare-api-token: ${{ secrets.CLOUDFLARE_TOKEN }}
+                cloudflare-zone: thesola.io
+                cloudflare-record: _dnslink.blog.thesola.io
+
+
