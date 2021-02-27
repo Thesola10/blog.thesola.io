@@ -15,11 +15,14 @@ jobs:
         steps:
           - name: Checkout code
             uses: actions/checkout@v2
-
-          - name: Build website with Hugo
-            uses: jakejarvis/hugo-build-action@master
             with:
-                args: --minify
+                submodules: recursive
+
+          - uses: peaceiris/actions-hugo@v2
+            with:
+                hugo-version: 0.79.1
+          - name: Build website with Hugo
+            run: hugo --minify
 
           - name: Add to IPFS
             uses: quorumcontrol/ipfs-deploy-github-action@v1.1

@@ -32,7 +32,7 @@ My first reaction was to fire up my favorite command: `ducks` (that's `du -cksh`
 0       /var/games
 ```
 
-Aaaaand... yeah, it's still hanging there. For a **long** time.
+Aaaand... yeah, it's still hanging there. For a **long** time.
 
 > Must be the size, scanning through 900GB of files isn't reasonable.
 
