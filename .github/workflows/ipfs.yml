@@ -3,8 +3,10 @@ name: deploy-to-ipfs
 on:
     push:
         paths:
-            - '**.md'
+            - 'content/**'
             - 'static/**'
+            - 'config.toml'
+
 
 jobs:
     hugo-build:
