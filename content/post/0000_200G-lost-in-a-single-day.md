@@ -34,11 +34,11 @@ My first reaction was to fire up my favorite command: `ducks` (that's `du -cksh`
 
 Aaaand... yeah, it's still hanging there. For a **long** time.
 
-> Must be the size, scanning through 900GB of files isn"t reasonable.
+> Must be the size, scanning through 900GB of files isn't reasonable.
 
 Fine. I decide to only scan the `srv` subdirectory, with the permanent data from my known services on the server. In just a couple minutes, I get my answer: 700GB, just as expected.
 
-> I haven't check my log rotation in a while, wonder where it's at...
+> I haven't checked my log rotation in a while, wonder where it's at...
 
 So I give it a spin, and look what I find in `/var/log`: For some reason, `sudo-io`'s logs (which record everything going on in a `sudo` session) are taking up a good hundred gigabytes.
 
