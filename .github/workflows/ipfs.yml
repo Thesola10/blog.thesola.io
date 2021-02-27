@@ -5,12 +5,10 @@ on:
         paths:
             - '**.md'
             - 'static/**'
-        branches:
-            - master
 
 jobs:
-    ipfs-deploy:
-        name: Deploy latest blog version to IPFS
+    hugo-build:
+        name: Build website using Hugo
         runs-on: ubuntu-latest
         steps:
           - name: Checkout code
@@ -23,10 +21,25 @@ jobs:
                 hugo-version: 0.79.1
           - name: Build website with Hugo
             run: hugo --minify
+          - name: Upload artifact
+            uses: actions/upload-artifact@v2
+            with:
+                name: built-website
+                path: public
 
+    ipfs-deploy:
+        name: Deploy to IPFS
+        needs: hugo-build
+        runs-on: ubuntu-latest
+        environment: IPFS
+        steps:
+          - name: Retrieve built website
+            uses: actions/download-artifact@v2
+            with:
+                name: built-website
+                path: public
           - name: Add to IPFS
             uses: quorumcontrol/ipfs-deploy-github-action@v1.1
-            environment: IPFS
             with:
                 deploy-dir: public
                 pinata-api-key: ${{ secrets.PINATA_KEY }}
