@@ -26,6 +26,7 @@ jobs:
 
           - name: Add to IPFS
             uses: quorumcontrol/ipfs-deploy-github-action@v1.1
+            environment: IPFS
             with:
                 deploy-dir: public
                 pinata-api-key: ${{ secrets.PINATA_KEY }}
