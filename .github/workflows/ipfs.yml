@@ -5,6 +5,8 @@ on:
         paths:
             - '**.md'
             - 'static/**'
+        branches:
+            - master
 
 jobs:
     ipfs-deploy:
