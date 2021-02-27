@@ -40,14 +40,20 @@ jobs:
             with:
                 name: built-website
                 path: public
-          - name: Add to IPFS
-            uses: quorumcontrol/ipfs-deploy-github-action@v1.1
+          - name: Add to Pinata
+            id: pin
+            uses: aquiladev/ipfs-action@v0.1.5
             with:
-                deploy-dir: public
-                pinata-api-key: ${{ secrets.PINATA_KEY }}
-                pinata-secret-api-key: ${{ secrets.PINATA_SECRET }}
-                cloudflare-api-token: ${{ secrets.CLOUDFLARE_TOKEN }}
-                cloudflare-zone: thesola.io
-                cloudflare-record: _dnslink.blog.thesola.io
-
-
+                path: public
+                service: pinata
+                pinataKey: ${{ secrets.PINATA_KEY }}
+                pinataSecret: ${{ secrets.PINATA_SECRET }}
+          - name: Update DNSLink
+            uses: textileio/cloudflare-update-dnslink@v2
+            with:
+                cid: ${{ steps.pin.outputs.hash }}
+            env:
+                RECORD_NAME: '_dnslink.blog'
+                RECORD_DOMAIN: 'thesola.io'
+                CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+                CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONEID }}
