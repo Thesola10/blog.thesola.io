@@ -1,5 +1,5 @@
 ---
-title: "Installers are evil. Here's why."
+title: "Installers are evil and here's why"
 date: 2021-04-25
 thumbnailImagePosition: left
 thumbnailImage: /images/0001-wizard.png
