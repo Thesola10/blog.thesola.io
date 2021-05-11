@@ -48,6 +48,7 @@ jobs:
                 service: pinata
                 pinataKey: ${{ secrets.PINATA_KEY }}
                 pinataSecret: ${{ secrets.PINATA_SECRET }}
+                pinataPinName: 'blog.thesola.io'
           - name: Update DNSLink
             uses: textileio/cloudflare-update-dnslink@v2
             with:
