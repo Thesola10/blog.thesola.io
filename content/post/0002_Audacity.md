@@ -3,7 +3,7 @@ title: "Our relationship to code: How much power do companies have over open sou
 date: 2021-07-06
 thumbnailImagePosition: left
 thumbnailImage: /images/0002-audacity.png
-categories
+categories:
 - tech
 - os dev
 tags:
