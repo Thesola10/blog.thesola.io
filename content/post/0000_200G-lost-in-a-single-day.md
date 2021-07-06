@@ -7,6 +7,8 @@ categories:
 tags:
 - data buildup
 - who cares
+aliases:
+- /2021/01/find-out-how-this-server-dropped-200gb-in-a-single-day/
 ---
 
 Sysadmins _hate_ him! Okay, maybe not, but still a funny story about how forgotten software data can be difficult to get rid of.

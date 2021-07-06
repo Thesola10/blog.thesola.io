@@ -10,6 +10,8 @@ tags:
 - installers
 - signing
 - rant
+aliases:
+- /2021/04/installers-are-evil-and-heres-why/
 ---
 
 There's one aspect that's always really annoyed me about Windows. Except this time, all major operating systems can be affected. _Installers_ are one of the biggest cryptographic and social engineering security holes out there...

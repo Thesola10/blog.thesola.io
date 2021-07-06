@@ -19,7 +19,7 @@ canonifyurls = true
 relativeUrls = true
 
 [permalinks]
-  post = "/:year/:month/:slug/"
+  post = "/:year/:filename/"
 
 [taxonomies]
   tag = "tags"
