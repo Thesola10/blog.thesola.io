@@ -33,6 +33,7 @@ jobs:
         name: Deploy to IPFS
         needs: hugo-build
         runs-on: ubuntu-latest
+        if: github.ref == 'refs/heads/master'
         environment: IPFS
         steps:
           - name: Retrieve built website
