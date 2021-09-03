@@ -59,7 +59,6 @@ Let's not get into details on how there are _multiple ways to do basic things_ o
 That's if the community even wants to accept those (they don't). Also, [AppImages are a very bad idea](/2021/0001_inert-installs), but whatever.
 
 There is one other [thing](https://youtu.be/BEcoJYMB_SA) that Ubuntu had, and I cannot seem to find in other Linux distributions. A sense of _identity_.
-InterfacesAndLibraries
 
 The people who decide on where the Linux desktop is headed, don't seem to agree on a single identity. Some even [want none at all](https://stopthemingmy.app). Sure, a bland and neutral appearance might help users customize it... but most user themes usually revolve around Windows and macOS look-alike anyway...
 
