@@ -1,0 +1,77 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1681202837,
+        "narHash": "sha256-H+Rh19JDwRtpVPAWp64F+rlEtxUWBAQW28eAi3SRSzg=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "cfacdce06f30d2b68473a46042957675eebb3401",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1683908138,
+        "narHash": "sha256-4H4qprXKofdElFp/eBiQl3msVHUniLX7g0nZsTADNzU=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "a9d8cb2c16b2f95a876dae825d16cdb9e4e253ad",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "pelicanTheme": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1683908628,
+        "narHash": "sha256-D/+8yith4OGzk1peuUwttP8wMkBHTR+P8Zl/lQxNpkU=",
+        "owner": "thesola10",
+        "repo": "pelicantheme",
+        "rev": "226b6e93d962c339c731052f9aaf4bc38d701703",
+        "type": "github"
+      },
+      "original": {
+        "owner": "thesola10",
+        "repo": "pelicantheme",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "pelicanTheme": "pelicanTheme"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
