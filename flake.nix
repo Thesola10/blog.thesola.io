@@ -9,7 +9,18 @@
   flake-utils.lib.eachDefaultSystem
     (system:
     let pkgs = import nixpkgs { inherit system; };
-    in
+    in rec
     { packages.default = pkgs.callPackage ./. { inherit pelicanTheme; };
-    });
+      devShells.default = pkgs.mkShell {
+        packages = with pkgs; [ darkhttpd ];
+
+        inputsFrom = [ packages.default ];
+        
+        shellHook = ''
+          darkhttpd ./result > /dev/null &
+          >&2 echo "Started HTTP server on 0.0.0.0:8080"
+        '';
+      };
+    }
+    );
 }
