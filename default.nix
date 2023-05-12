@@ -9,9 +9,10 @@ pkgs.stdenv.mkDerivation {
 
   nativeBuildInputs = with pkgs; [
     python3Packages.pelican
+    python3Packages.markdown
   ];
 
   buildPhase = ''
-    pelican -t ${pelicanTheme} -o $out -s $src/pelicanconf.py $src/content
+    pelican $src/content -t ${pelicanTheme} -o $out -s $src/pelicanconf.py
   '';
 }
