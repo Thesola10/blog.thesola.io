@@ -40,4 +40,5 @@ jobs:
         steps:
           - name: Push to Pages
             uses: actions/deploy-pages@v2
-            artifact_name: built-website
+            with:
+              artifact_name: built-website
