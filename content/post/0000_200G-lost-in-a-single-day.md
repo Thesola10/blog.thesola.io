@@ -46,7 +46,7 @@ So I give it a spin, and look what I find in `/var/log`: For some reason, `sudo-
 
 > Let me quickly delete that, and...
 
-Well, _quickly_ indeed. Too quickly, actually. I check again, and disk usage is  still effectively the same.
+Well, _quickly_ indeed. Too quickly, actually. I check again, and disk usage is still effectively the same.
 
 Not very surprising, I mean Btrfs does have its quirks when it comes to reported file size. Goes to show how reflinks are a double-edged sword.
 
