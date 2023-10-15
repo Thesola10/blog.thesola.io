@@ -1,4 +1,4 @@
-name: deploy-to-ipfs
+name: deploy-to-pages
 
 on:
     push:
