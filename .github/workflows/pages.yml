@@ -7,6 +7,11 @@ on:
             - 'static/**'
             - 'config.toml'
 
+permissions:
+    contents: read
+    pages: write
+    id-token: write
+
 
 jobs:
     hugo-build:
@@ -30,7 +35,7 @@ jobs:
                 path: public
 
     ipfs-deploy:
-        name: Deploy to IPFS
+        name: Deploy to GitHub Pages
         needs: hugo-build
         runs-on: ubuntu-latest
         if: github.ref == 'refs/heads/master'
