@@ -70,7 +70,7 @@ But this time, something's changed. Feedback.
 
 > Oh, that's because Docker uses Btrfs subvolumes!
 
-So I run a quick `btrfs subvolume delete`, which this time goes pretty fast (for once), and I can _finally_ delete `/var/lib/docker`, just like that.
+So I run a quick `btrfs subvolume delete`, which this time goes pretty fast (for once),  and I can _finally_ delete `/var/lib/docker`, just like that.
 
 As it turns out, it was indeed the culprit, too. Disk usage fell to around 700GB, still better when you know where they came from.
 
