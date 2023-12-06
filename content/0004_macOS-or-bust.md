@@ -1,12 +1,10 @@
 ---
-title: "macOS or Bust! How to do the unfeasible"
-date: 2023-02-28
-categories:
-- tech
-- os dev
-tags:
-- nixie
-- macos
+Title: macOS or Bust! How to do the unfeasible
+Date: 2023-02-28
+Category: os dev
+Tags: nixie, macos, rant
+Slug: 0004_macOS-or-bust
+Summary: Well… it's been a while since I last wrote an article. But I wasn't just sitting idly by, watching paint dry. I've been busy fighting macOS as well.
 ---
 
 Well… it’s been a while since I last wrote an article. But I wasn’t just sitting idly by, watching paint dry. I’ve been busy fighting macOS as well.

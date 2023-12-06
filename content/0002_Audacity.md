@@ -1,15 +1,9 @@
 ---
-title: "Our relationship to code: How much power do companies have over open source?"
-date: 2021-07-06
-thumbnailImagePosition: left
-thumbnailImage: /images/0002-audacity.png
-categories:
-- tech
-- os dev
-tags:
-- rant
-- privacy
-- our relationship to code
+Title: Our relationship to code: How much power do companies have over open source?
+Date: 2021-07-06
+Category: os dev
+Tags: rant, privacy, our relationship to code
+Slug: 0002_Audacity
 ---
 
 The MUSE group wrote a telemetry _proposal_ as a pull request, and it backfired. Linux users are usually safe from telemetry thanks to distro maintainers, so why are people still mad? And what does that say about the way software is distributed as a whole?

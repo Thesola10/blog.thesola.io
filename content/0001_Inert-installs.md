@@ -1,17 +1,10 @@
 ---
-title: "Installers are evil and here's why"
-date: 2021-04-25
-thumbnailImagePosition: left
-thumbnailImage: /images/0001-wizard.png
-categories:
-- tech
-- os dev
-tags:
-- installers
-- signing
-- rant
-aliases:
-- /2021/04/installers-are-evil-and-heres-why/
+title: Installers are evil and here's why
+Date: 2021-04-25
+Category: os dev
+Tags: installers, signing, rant
+alias: /2021/04/installers-are-evil-and-heres-why/
+Slug: 0001_Inert-installs
 ---
 
 There's one aspect that's always really annoyed me about Windows. Except this time, all major operating systems can be affected. _Installers_ are one of the biggest cryptographic and social engineering security holes out there...

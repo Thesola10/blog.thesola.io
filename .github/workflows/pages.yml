@@ -1,0 +1,40 @@
+name: deploy-to-ipfs
+
+on:
+  push:
+    paths:
+      - 'content/**'
+      - 'pelicanconf.py'
+      - 'publishconf.py'
+
+jobs:
+  pelican-build:
+    name: Build website using Pelican
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - name: Install Pelican
+        run: pip install pelican
+      - name: Build website with Pelican
+        run: pelican content -s publishconf.py -t "themes/solaio blog"
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          name: built-website
+          path: output
+  pages-deploy:
+    name: Deploy to GitHub Pages
+    needs: pelican-build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Push to Pages
+        uses: actions/deploy-pages@v2
+        with:
+          artifact_name: built-website

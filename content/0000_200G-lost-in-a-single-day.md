@@ -1,10 +1,11 @@
 ---
-Title: "Find out how this server dropped 200GB in a single day!"
-Tate: 2021-01-25
+Title: Find out how this server dropped 200GB in a single day!
+Date: 2021-01-25
 Category: tech
 Tags: data buildup, who cares
 Slug: 0000_200G-lost-in-a-single-day
 alias: /2021/01/find-out-how-this-server-dropped-200gb-in-a-single-day/
+Summary: Sysadmins _hate_ him! Okay, maybe not, but still a funny story about how forgotten software data can be difficult to get rid of.
 ---
 
 Sysadmins _hate_ him! Okay, maybe not, but still a funny story about how forgotten software data can be difficult to get rid of.

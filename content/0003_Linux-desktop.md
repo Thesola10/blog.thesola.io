@@ -1,13 +1,9 @@
 ---
-title: "Our relationship to code: The Year of the Linux Desktop won't happen, and that's fine"
-date: 2021-09-03
-thumbnailImagePosition: left
-thumbnailImage: /images/0003-ubuntu-laptop.jpg
-categories:
-- tech
-- os dev
-tags:
-- our relationship to code
+Title: Our relationship to code: The Year of the Linux Desktop won't happen, and that's fine
+Date: 2021-09-03
+Category: os dev
+Tags: our relationship to code
+Slug: 0003_Linux-desktop
 ---
 
 Linux, and the community of hackers and users that formed around it, make for a formidable operating system product, both for software development and everyday use. Clearly it is superior, so _where are all the apps?_

@@ -1,7 +1,6 @@
 { description = "My personal blog";
 
   inputs.nixpkgs.url = github:nixos/nixpkgs;
-  inputs.flake-utils.url = github:numtide/flake-utils;
   inputs.pelicanTheme.url = github:thesola10/pelicantheme;
   inputs.pelicanTheme.flake = false;
 
@@ -15,7 +14,7 @@
         packages = with pkgs; [ darkhttpd ];
 
         inputsFrom = [ packages.default ];
-        
+
         shellHook = ''
           darkhttpd ./result > /dev/null &
           >&2 echo "Started HTTP server on 0.0.0.0:8080"
