@@ -14,11 +14,6 @@
         packages = with pkgs; [ darkhttpd ];
 
         inputsFrom = [ packages.default ];
-
-        shellHook = ''
-          darkhttpd ./result > /dev/null &
-          >&2 echo "Started HTTP server on 0.0.0.0:8080"
-        '';
       };
     }
     );
