@@ -1,7 +1,7 @@
 { description = "My personal blog";
 
   inputs.nixpkgs.url = github:nixos/nixpkgs;
-  inputs.pelicanTheme.url = github:thesola10/pelicantheme;
+  inputs.pelicanTheme.url = github:thesola10/pelican-thesola.io;
   inputs.pelicanTheme.flake = false;
 
   outputs = { self, nixpkgs, flake-utils, pelicanTheme, ... }:

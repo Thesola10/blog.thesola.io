@@ -1,5 +1,5 @@
 { pkgs ? import <nixpkgs> {}
-, pelicanTheme ? fetchGit "https://github.com/thesola10/pelicantheme"
+, pelicanTheme ? fetchGit "https://github.com/thesola10/pelican-thesola.io"
 }:
 
 pkgs.stdenv.mkDerivation {
