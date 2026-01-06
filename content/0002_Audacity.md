@@ -4,6 +4,8 @@ Date: 2021-07-06
 Category: os dev
 Tags: rant, privacy, our relationship to code
 Slug: 0002_Audacity
+Image: /images/0002-audacity.png
+Summary: The MUSE group wrote a telemetry _proposal_ as a pull request, and it backfired. Linux users are usually safe from telemetry thanks to distro maintainers, so why are people still mad? And what does that say about the way software is distributed as a whole?
 ---
 
 The MUSE group wrote a telemetry _proposal_ as a pull request, and it backfired. Linux users are usually safe from telemetry thanks to distro maintainers, so why are people still mad? And what does that say about the way software is distributed as a whole?

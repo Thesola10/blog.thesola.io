@@ -4,6 +4,8 @@ Date: 2021-09-03
 Category: os dev
 Tags: our relationship to code
 Slug: 0003_Linux-desktop
+Image: /images/0003-ubuntu-laptop.jpg
+Summary: Linux, and the community of hackers and users that formed around it, make for a formidable operating system product, both for software development and everyday use. Clearly it is superior, so _where are all the apps?_
 ---
 
 Linux, and the community of hackers and users that formed around it, make for a formidable operating system product, both for software development and everyday use. Clearly it is superior, so _where are all the apps?_
