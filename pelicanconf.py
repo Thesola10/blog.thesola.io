@@ -1,6 +1,7 @@
 AUTHOR = 'Karim Vergnes'
 SITENAME = 'thesola.io blog'
 SITEURL = ''
+SITELOGO = '/images/logo.png'
 
 PATH = 'content'
 
@@ -14,6 +15,21 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+CATEGORIES_URL = 'categories'
+CATEGORIES_SAVE_AS = 'categories/index.html'
+
+ARCHIVES_URL = 'archives'
+ARCHIVES_SAVE_AS = 'archives/index.html'
+
+MENU_INTERNAL_PAGES = (
+        ('Categories', CATEGORIES_URL, CATEGORIES_SAVE_AS),
+        ('Archives', ARCHIVES_URL, ARCHIVES_SAVE_AS)
+)
+
+MENUITEMS = (
+        ('Portfolio', 'https://thesola.io/'),
+)
 
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
