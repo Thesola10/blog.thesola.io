@@ -45,7 +45,7 @@ Except, something just _doesn't fit_. In fact, looking at the commit dates, the 
 
 The truth is probably somewhere in between, but comparatively speaking, the public reaction was a lot more tame than for _what happened next_.
 
-=====
+-----
 
 ## 2. The privacy policy update
 
@@ -59,7 +59,7 @@ Again, MUSE reminded people that the new data collection code can be disabled th
 
 Compile-time options are expected to be manipulated by users, but come with the implied requirement that said user should be sufficiently proficient in computing to know how to compile their own programs in the first place. As such, it is fair to say that, regardless of intent, these options will impact the uninformed and damage the image of an app as a unified product whose behavior is identical everywhere.
 
-=====
+-----
 
 ## Moral of the story
 
