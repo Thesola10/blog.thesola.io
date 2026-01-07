@@ -19,7 +19,7 @@ jobs:
       - name: Install Pelican
         run: pip install pelican
       - name: Build website with Pelican
-        run: pelican content -s publishconf.py -t "themes/solaio blog"
+        run: pelican content -s publishconf.py -t "theme"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
