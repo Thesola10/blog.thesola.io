@@ -1,4 +1,4 @@
-name: deploy-to-ipfs
+name: deploy-to-github
 
 on:
   push:
@@ -21,7 +21,7 @@ jobs:
       - name: Build website with Pelican
         run: pelican content -s publishconf.py -t "theme"
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v4
         with:
           name: built-website
           path: output
@@ -35,6 +35,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Push to Pages
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
         with:
           artifact_name: built-website
