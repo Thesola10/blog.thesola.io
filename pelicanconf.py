@@ -1,7 +1,8 @@
 AUTHOR = 'Karim Vergnes'
 SITENAME = 'thesola.io blog'
 SITEURL = ''
-SITELOGO = '/images/logo.png'
+SITELOGO = '/images/logo-light.png'
+SITELOGO_DARK = '/images/logo.png'
 
 PATH = 'content'
 
