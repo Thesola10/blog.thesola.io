@@ -1,5 +1,6 @@
 { pkgs ? import <nixpkgs> {}
 , pelicanTheme ? fetchGit "https://github.com/thesola10/pelican-thesola.io"
+, publish ? false
 }:
 
 pkgs.stdenv.mkDerivation {
@@ -13,6 +14,6 @@ pkgs.stdenv.mkDerivation {
   ];
 
   buildPhase = ''
-    pelican $src/content -t ${pelicanTheme} -o $out -s $src/pelicanconf.py
+    pelican $src/content -t ${pelicanTheme} -o $out -s $src/${if publish then "publishconf.py" else "pelicanconf.py"}
   '';
 }

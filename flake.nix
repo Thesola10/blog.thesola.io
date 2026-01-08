@@ -10,6 +10,7 @@
     let pkgs = import nixpkgs { inherit system; };
     in rec
     { packages.default = pkgs.callPackage ./. { inherit pelicanTheme; };
+      packages.publish = pkgs.callPackage ./. { inherit pelicanTheme; publish = true; };
       devShells.default = pkgs.mkShell {
         packages = with pkgs; [ darkhttpd ];
 
