@@ -17,7 +17,7 @@ jobs:
         with:
           submodules: recursive
       - name: Install Pelican
-        run: pip install pelican
+        run: pip install pelican markdown
       - name: Build website with Pelican
         run: pelican content -s publishconf.py -t "theme"
       - name: Upload artifact
@@ -30,6 +30,9 @@ jobs:
     needs: pelican-build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master'
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
