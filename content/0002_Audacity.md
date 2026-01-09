@@ -1,5 +1,5 @@
 ---
-Title: Our relationship to code: How much power do companies have over open source?
+Title: How much power do companies have over open source?
 Date: 2021-07-06
 Category: os dev
 Tags: rant, privacy, our relationship to code

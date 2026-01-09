@@ -1,5 +1,5 @@
 ---
-Title: Our relationship to code: The Year of the Linux Desktop won't happen, and that's fine
+Title: The Year of the Linux Desktop won't happen, and that's fine
 Date: 2021-09-03
 Category: os dev
 Tags: our relationship to code
@@ -54,7 +54,7 @@ Let's not get into details on how there are _multiple ways to do basic things_ o
 
 > But Flatpak and AppImage are solving those issues, right?
 
-That's if the community even wants to accept those (they don't). Also, [AppImages are a very bad idea](/2021/0001_inert-installs), but whatever.
+That's if the community even wants to accept those (they don't). Also, [AppImages are a very bad idea](/2021/0001_Inert-installs), but whatever.
 
 There is one other [thing](https://youtu.be/BEcoJYMB_SA) that Ubuntu had, and I cannot seem to find in other Linux distributions. A sense of _identity_.
 

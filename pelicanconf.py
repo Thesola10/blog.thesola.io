@@ -10,8 +10,8 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
 
-ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}'
-ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}/index.html'
+ARTICLE_URL = '{date:%Y}/{slug}'
+ARTICLE_SAVE_AS = '{date:%Y}/{slug}/index.html'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
