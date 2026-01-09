@@ -13,6 +13,15 @@ DEFAULT_LANG = 'en'
 ARTICLE_URL = '{date:%Y}/{slug}'
 ARTICLE_SAVE_AS = '{date:%Y}/{slug}/index.html'
 
+ARTICLE_LANG_URL = '{lang}/{date:%Y}/{slug}'
+ARTICLE_LANG_SAVE_AS = '{lang}/{date:%Y}/{slug}/index.html'
+
+PAGE_URL = '{slug}'
+PAGE_SAVE_AS = '{slug}/index.html'
+
+PAGE_LANG_URL = '{lang}/{slug}'
+PAGE_LANG_SAVE_AS = '{lang}/{slug}/index.html'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
