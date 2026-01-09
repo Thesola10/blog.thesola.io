@@ -2,6 +2,7 @@
 Title: Find out how this server dropped 200GB in a single day!
 Date: 2021-01-25
 Category: tech
+Lang: en
 Tags: data buildup, who cares
 Slug: 0000_200G-lost-in-a-single-day
 Alias: /2021/01/find-out-how-this-server-dropped-200gb-in-a-single-day/

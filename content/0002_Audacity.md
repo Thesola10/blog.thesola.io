@@ -2,6 +2,7 @@
 Title: How much power do companies have over open source?
 Date: 2021-07-06
 Category: os dev
+Lang: en
 Tags: rant, privacy, our relationship to code
 Slug: 0002_Audacity
 Image: /images/0002-audacity.png

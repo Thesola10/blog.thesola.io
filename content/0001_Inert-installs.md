@@ -2,6 +2,7 @@
 title: Installers are evil and here's why
 Date: 2021-04-25
 Category: os dev
+Lang: en
 Tags: installers, signing, rant
 Alias: /2021/04/installers-are-evil-and-heres-why/
 Slug: 0001_Inert-installs

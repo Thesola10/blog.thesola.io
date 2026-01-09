@@ -2,6 +2,7 @@
 Title: The Year of the Linux Desktop won't happen, and that's fine
 Date: 2021-09-03
 Category: os dev
+Lang: en
 Tags: our relationship to code
 Slug: 0003_Linux-desktop
 Image: /images/0003-ubuntu-laptop.jpg
