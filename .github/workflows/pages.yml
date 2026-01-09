@@ -6,6 +6,7 @@ on:
       - 'content/**'
       - 'pelicanconf.py'
       - 'publishconf.py'
+      - 'theme'
 
 jobs:
   pelican-build:
