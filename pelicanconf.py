@@ -4,6 +4,7 @@ SITEURL = ''
 SITELOGO = '/images/logo-light.png'
 SITELOGO_DARK = '/images/logo.png'
 
+THEME = 'theme'
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
