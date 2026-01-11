@@ -72,4 +72,4 @@ So I run a quick `btrfs subvolume delete`, which this time goes pretty fast (for
 
 As it turns out, it was indeed the culprit, too. Disk usage fell to around 700GB, still better when you know where they came from.
 
-**Moral of the story:** ~~DOCKER SUCKS~~ Don't leave unused files behind, clean them up. It could have been much worse.
+**Moral of the story:** <s>DOCKER SUCKS</s> Don't leave unused files behind, clean them up. It could have been much worse.
