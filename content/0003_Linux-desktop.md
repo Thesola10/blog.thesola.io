@@ -71,7 +71,7 @@ I know it may seem superficial, but looking at Windows starting with XP, or Mac 
 
 We don't have a legendary startup tune. We don't have a distinct desktop experience. That's because we want the user to design their own.
 
-We don't have a single packaging format. Our shared libraries are a mess. That's because package maintainers are [protecting us](/2021/0002_audacity).
+We don't have a single packaging format. Our shared libraries are a mess. That's because package maintainers are [protecting us](/2021/0002_Audacity).
 
 We don't have a company fully devoted to the Linux desktop since Canonical. That's because profit would prevent us from making it the best it could be.
 
