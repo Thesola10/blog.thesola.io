@@ -59,7 +59,7 @@ It was just a research toy, a utility. Never meant to reach market as-is, if the
 
 OpenAI yielded, and out came DALL-E. Unrefined. Undesigned. Type in words, get a picture. The quality was bad, so it seemed inoffensive at first, perhaps even a little fun?
 
-But the void was still unsatisfied. The output needs to be better. People started using it as a substitute for the artistic process it was built upon. Naturally, those betrayed starting pushing back, pointing out six-fingered hands and gibberish text.
+But the void was still unsatisfied. The output needs to be better. People started using it as a substitute for the artistic process it was built upon. Naturally, those betrayed started pushing back, pointing out six-fingered hands and gibberish text.
 
 <pullquote right>
 One thing was abundantly clear: machine had betrayed the trust humans had put in it.
