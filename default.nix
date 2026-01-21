@@ -3,14 +3,36 @@
 , publish ? false
 }:
 
-pkgs.stdenv.mkDerivation {
+let
+  pelican-sitemap = with pkgs.python3Packages;
+    buildPythonPackage rec {
+      pname = "pelican_sitemap";
+      version = "1.2.2";
+
+      buildInputs = [
+        pelican
+      ];
+
+      pyproject = true;
+      build-system = [ pdm-backend ];
+
+      src = fetchPypi
+      { inherit pname version;
+        sha256 = "sha256-k/ctA13Q7C9c7jiydmu9f2pUvxhmNa4SYaberEItz7c=";
+      };
+
+      doCheck = false;
+    };
+
+in pkgs.stdenv.mkDerivation {
   name = "blog.thesola.io";
   dontInstall = true;
   src = ./.;
 
-  nativeBuildInputs = with pkgs; [
-    python3Packages.pelican
-    python3Packages.markdown
+  nativeBuildInputs = with pkgs.python3Packages; [
+    pelican
+    markdown
+    pelican-sitemap
   ];
 
   buildPhase = ''
