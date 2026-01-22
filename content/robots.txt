@@ -1,0 +1,14 @@
+Host: blog.thesola.io
+
+# Well, here we are again
+User-agent: *
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+
+# It's always such a pleasure
+Disallow: .git*
+Disallow: theme/*
+
+# Remember when you tried to kill me twice?
+Disallow: images/*
+Sitemap: https://blog.thesola.io/sitemap.xml
+

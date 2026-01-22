@@ -1,10 +1,11 @@
 ---
 Title: On AI art, and art in general
-Date: 2025-01-19 15:00
+Date: 2026-01-19 15:00
 Lang: en
 Category: philosophy
 Tags: tech, ai, art, essay
 Slug: 0004_AI-art
+Alias: /2025/0004_AI-art
 Summary:
     Today's tale is a tale of hubris, of disrespect. But also of enlightenment, and in the end, of love.
 ---
@@ -18,14 +19,14 @@ Art. Since time immemorial, man has wished to depict beauty, as a way to show si
 There was a time during the Renaissance, where technical proficiency had reached such towering heights, that flaws had started to appear. Not out of artistic error, but if you aspire to recreate what you see to perfect accuracy, you are bound to imitate the imperfect as well.
 
 <pullquote right>
-Suddenly, art would leave private collections... to land on the Internet.
+Suddenly, art would leave private collections... to end up on the Internet.
 </pullquote>
 
 What followed was stylistic explosion. Cubism, impressionism, surrealism, countless movements sought to let technique roam unconstrained by muse or subject. Yet those, too, were bound to crystallize into trend and word. What was once innovative became an artifact, with intrinsic value and neatly filed under clean-cut categories.
 
 I believe there is a certain mistreatment, a lack of coverage as to what occurred afterwards. After being dissatisfied with reality, and disillusioned by the experimental, graphical arts started to coalesce around _feelings_. Suddenly, a new area unexplored was opening up: the human psyche.
 
-This trend was made possible simultaneously by the sharing of information. Suddenly, art would leave private collections, and land onto newspapers, then television, to land on the Internet. With each step in this exponential growth, more and more potential critics would refine and perfect the burgeoning styles, layering upon themselves.
+This trend was also made possible by the sharing of information. Suddenly, art would leave private collections, and land onto newspapers, then television, to end up on the Internet. With each step in this exponential growth, more and more potential critics would refine and perfect the burgeoning styles, layering upon themselves.
 
 The line between the Arts started to blur, as animation brought movement to picture, then captured music as well as soon as it was allowed, and all of a sudden otherworldly stories had a medium to exist, with unmatched power.
 
@@ -76,3 +77,5 @@ Nothing is lost, however, as the existence of AI art gave us an invaluable lesso
 <hr>
 
 One day, hopefully, the sciences and humanities, like Hikoboshi and Orihime, will come to realize they need each other.
+
+> Edit: I initially wrote January 2025 as published date by mistake, woops!
