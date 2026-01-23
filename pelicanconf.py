@@ -64,7 +64,7 @@ SITEMAP = {
     ]
 }
 
-STATIC_PATHS = ['robots.txt']
+STATIC_PATHS = ['images', 'static', 'robots.txt']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
