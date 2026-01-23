@@ -20,7 +20,7 @@ jobs:
       - name: Install Pelican
         run: pip install pelican markdown
       - name: Install Pelican plugins
-        run: pip install -r requirements.txt
+        run: pip install -r pelicanplugins.txt
       - name: Build website with Pelican
         run: pelican content -s publishconf.py -t "theme"
       - name: Upload artifact
