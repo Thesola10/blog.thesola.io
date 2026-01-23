@@ -57,6 +57,8 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
+PLUGINS = [ 'sitemap', 'pelican_alias' ]
+
 SITEMAP = {
     "exclude": [
         "^/images/",

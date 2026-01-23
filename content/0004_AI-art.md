@@ -5,7 +5,7 @@ Lang: en
 Category: philosophy
 Tags: tech, ai, art, essay
 Slug: 0004_AI-art
-Alias: /2025/0004_AI-art
+Alias: /2025/0004_AI-art/
 Summary:
     Today's tale is a tale of hubris, of disrespect. But also of enlightenment, and in the end, of love.
 ---

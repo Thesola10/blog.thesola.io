@@ -18,7 +18,9 @@ jobs:
         with:
           submodules: recursive
       - name: Install Pelican
-        run: pip install pelican markdown pelican-sitemap
+        run: pip install pelican markdown
+      - name: Install Pelican plugins
+        run: pip install -r requirements.txt
       - name: Build website with Pelican
         run: pelican content -s publishconf.py -t "theme"
       - name: Upload artifact
