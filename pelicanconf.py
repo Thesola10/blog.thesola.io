@@ -7,6 +7,8 @@ SITELOGO_DARK = '/images/logo.png'
 THEME = 'theme'
 PATH = 'content'
 
+ARCHETYPE = 'blog'
+
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
