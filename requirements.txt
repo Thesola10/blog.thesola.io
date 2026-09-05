@@ -1,2 +1,3 @@
 pelican-sitemap
 pelican-alias
+markdown
